@@ -1,0 +1,26 @@
+﻿生成启动时间为 2014/11/24 16:46:16。
+     1>项目“E:\oldSource\Game\gate\gate.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt       -D_WIN32_WINNT=0x0501 ..\system\send.cc ..\system\server.cc ..\system\timer.cc account.cpp data.cpp gate_main.cc interact.cc world.cc
+         world.cc
+     1>e:\oldsource\game\system\mq_node.h(3): fatal error C1083: 无法打开包括文件:“zmq.hpp”: No such file or directory
+         interact.cc
+     1>e:\oldsource\game\system\mq_node.h(3): fatal error C1083: 无法打开包括文件:“zmq.hpp”: No such file or directory
+         gate_main.cc
+     1>e:\oldsource\game\system\server.h(3): fatal error C1083: 无法打开包括文件:“boost/asio/io_service.hpp”: No such file or directory
+         data.cpp
+     1>e:\oldsource\game\system\mq_node.h(3): fatal error C1083: 无法打开包括文件:“zmq.hpp”: No such file or directory
+         account.cpp
+     1>e:\oldsource\game\system\mq_node.h(3): fatal error C1083: 无法打开包括文件:“zmq.hpp”: No such file or directory
+         timer.cc
+     1>e:\oldsource\game\system\timer.h(3): fatal error C1083: 无法打开包括文件:“boost/asio/deadline_timer.hpp”: No such file or directory
+         server.cc
+     1>e:\oldsource\game\system\server.h(3): fatal error C1083: 无法打开包括文件:“boost/asio/io_service.hpp”: No such file or directory
+         send.cc
+     1>e:\oldsource\game\system\server.h(3): fatal error C1083: 无法打开包括文件:“boost/asio/io_service.hpp”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\oldSource\Game\gate\gate.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.56

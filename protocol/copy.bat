@@ -1,0 +1,1 @@
+copy *.h ..\scripts\c_def

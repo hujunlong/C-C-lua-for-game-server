@@ -1,0 +1,19 @@
+﻿生成启动时间为 2014/11/24 16:46:17。
+     1>项目“E:\oldSource\Game\account\account.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt -D_CRT_SECURE_NO_WARNINGS      -D_WIN32_WINNT=0x0501 ..\system\cJSON.c
+         cJSON.c
+     1>e:\oldsource\game\system\cjson.c(68): warning C4028: 形参 1 与声明不同
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt -D_CRT_SECURE_NO_WARNINGS      -D_WIN32_WINNT=0x0501 ..\system\db_helper.cc .\account_main.cpp account.cpp
+         account.cpp
+     1>e:\oldsource\game\account\account.cpp(3): fatal error C1083: 无法打开包括文件:“zmq.hpp”: No such file or directory
+         account_main.cpp
+     1>e:\oldsource\game\system\mq_node.h(3): fatal error C1083: 无法打开包括文件:“zmq.hpp”: No such file or directory
+         db_helper.cc
+     1>e:\oldsource\game\system\db_helper.h(2): fatal error C1083: 无法打开包括文件:“mysql++.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\oldSource\Game\account\account.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.68

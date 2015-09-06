@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="db/db.cbp" active="1" />
+		<Project filename="policy/policy.cbp" />
+		<Project filename="interact/interact.cbp" />
+		<Project filename="gate/gate.cbp" />
+		<Project filename="account/Account.cbp" />
+		<Project filename="world/world.cbp" />
+		<Project filename="../test/libsystem/libsystem.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

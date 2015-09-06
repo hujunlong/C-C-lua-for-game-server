@@ -1,0 +1,28 @@
+每一条消息都分为消息头和消息体
+
+消息头前两个字节表示本条消息的type，为一个16位整数
+后两个字节表示后面跟的消息体的字节数，不包含头长度，所以这个值可能为0
+
+消息体定义为一个结构体
+
+基本格式如下
+
+ enum ｛kGetMyTown=123，｝
+
+strunct  SSSS
+｛
+	static const Type kType = kGetMyTown;   //这个值用来填写前面的type, kGetMyTown的值在前面定义
+	static const int32_t any_other = 0;
+	enum {E1, E2}
+
+	int32_t val1;
+	int16_t val2;
+	int8_t  val3;
+	bool    val4;
+｝
+
+static  或 enum开头的定义都是解释性的东西，不占用实际长度
+
+这个消息体的长度为 4 + 2 + 1 + 1
+
+消息的头的type填写123, 长度填写8

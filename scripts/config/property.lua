@@ -1,0 +1,1 @@
+local ret={strength={life=0.3,physical_attack=0.1,physical_defense=0.056},agility={life=0.1,magical_attack=0.06,physical_attack=0.1,physical_defense=0.08},intelligence={magical_defense=0.136,magical_attack=0.13}} return ret
